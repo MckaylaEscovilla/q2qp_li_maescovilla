@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Poppins&display=swap');
+*{margin: 0;}
+body{
+    overflow-x: hidden; /*to hide the horizontal scrollbar*/
+}
+nav{
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    justify-content: space-around; /*to distance the navbar elements/links*/
+    display: flex;
+    font-family: 'Black Ops One', cursive;
+    background-color: black;
+    width: 100vw;
+}
+nav span{color: white;}
+.navlinks a{
+    text-decoration: none;
+    color: white;
+    padding: 3vw;
+}
+.navlinks:hover{
+    transition: 1s;
+    font-size: larger;
+}
+#bgvid{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    z-index:-1;
+}
+.banner{
+    margin-top: 10vw;
+    font-family: 'Black Ops One', cursive;
+    padding: 5vw;
+}
+.btext{
+    text-align: center;
+    font-size: 4vb;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 1);
+    color: rgba(0, 0, 0, 0.61); /*translucent text*/
+}
+.button{
+    display: inline-block;
+    color: rgb(218, 46, 75);
+    background-color: gray;
+    padding: 10px;
+    text-align: center;
+    margin-left: 44vw;
+    font-family: 'Poppins', cursive;
+}
+.section1{
+    margin-top: 25vh;
+    width: 100vw;
+    height: 120vh;
+    background-color: rgb(48, 46, 46);
+    display: inline-block;
+}
+.section1 h1{
+    margin-top: 2vh;
+    text-align: center;
+    font-family: 'Black Ops One', cursive;
+    color: white;
+    font-size: xx-large;
+}
+section span{color: rgb(218, 46, 75);}
+.section1 p{
+    color: white;
+    font-size: 3vb;
+    margin-top: 19vh;
+    width: 45vw;
+    margin-left: 10vw;
+    text-align: center;
+    font-family: 'Poppins', cursive;
+}
+.section1 img{
+    float: right;
+    width: 30vw;
+    height: 95vh;
+    margin-top: 8vh;
+    margin-right: 5vw;
+}
+.section2{
+    background-color: gray;
+    width: 100vw;
+    height: 120vh;
+    display: inline-block;
+}
+.section2 h1{
+    font-size: 50px;
+    font-family: 'Black Ops One', cursive;
+    text-align: center;
+    margin-top: 3vh;
+}
+.section2 p{
+    margin-top: 4vh;
+    text-align: center;
+    font-size: 4vb;
+    font-family: 'Poppins', cursive;
+    width: 99vw;
+}
+.section2 h2{
+   text-align: center;
+   margin-top: 15vh;
+   font-family: 'Poppins', cursive;
+}
+.section2 a{text-decoration: none; color: rgb(218, 46, 75); }
+.section2 h2:hover{transform: scale(2);} /*makes the text appear bigger when cursor is on top of the text*/
+footer{
+    position: relative;
+    text-align: center;
+    background-color: black;
+    bottom: 0vw;
+    width: 100vw;
+}
+.icon{
+    background-image: url('../images/sprite3.png');
+    background-repeat: no-repeat; width: 66px; height: 66px;
+	display: inline-block;
+}
+#twt{background-position: -66px -72px;}
+#fb{background-position: -439px -146px;}
+#yt{background-position: -439px -221px;}
+#bgvid2{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    z-index:-2;
+}
+.section3{
+    background-color: rgb(48, 46, 46);
+    width: 100vw;
+    height: 120vh;
+    display: inline-block;
+    margin-top: 45vh;
+}
+.section3 h1{
+    font-family: 'Black Ops One', cursive;
+    text-align: center;
+    color: white;
+    margin-top: 3vh;
+    font-size: 5vb;
+}
+.section3 p{
+    text-align: center;
+    font-family: 'Poppins', cursive;
+    color: white;
+    margin-top: 10vh;
+    font-size: 3vb;
+    margin-left: 25vw;
+    width: 50vw;
+}
+.section4{
+    width: 100vw;
+    height: 120vh;
+    background-color: gray;
+    display: inline-block;
+}
+.section4 h1{
+    font-family: 'Black Ops One', cursive;
+    font-size: 6vb;
+    text-align: center;
+    margin-top: 3vh;
+}
+.section4 p{
+    text-align: center;
+    font-family: 'Poppins', cursive;
+    margin-top: 3vh;
+    font-size: 3vb;
+    width: 99vw;
+}
+.section4 img{
+    height: 50vh;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 10vh;
+}
+.banner2{
+    font-family: 'Black Ops One', cursive;
+    padding: 5vw;
+    margin-top: 10vh;
+    color: white; 
+    text-align: center;
+}
+.banner2 h1{margin-top: 10vh; font-size: 8vb; text-shadow: 2px 4px 3px rgba(0, 0, 0, 1);}
+.banner2 span{color:  rgb(218, 46, 75);}
+#bgvid3{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    z-index: -3;
+}
+.section5{
+    background-color: rgb(48, 46, 46);
+    width: 100vw;
+    height: 160vh;
+    display: inline-block;
+    margin-top: 45vh;
+}
+.section5 h1{
+    text-align: center;
+    margin-top: 2vh;
+    font-family: 'Black Ops One', cursive;
+    font-size: 5vb;
+}
+.section5 img{
+    width: 20vw;
+    height: 40vh;
+    padding: 2vw;
+}
+.section6{
+    width: 100vw;
+    height: 120vh;
+    background-color: gray;
+    display: inline-block;
+}
+.section6 h1{
+    text-align: center;
+    font-family: 'Black Ops One', cursive;
+    margin-top: 3vh;
+    font-size: 5.5vb;
+}
+.section6 p{
+    width: 98vw;
+    text-align: center;
+    font-family: 'Poppins', cursive;
+    font-size: 3vb;
+    margin-top: 6vh;
+}
+.section6 h2{
+    margin-left: 4vw;
+    margin-top: 8vh;
+    font-family: 'Black Ops One', cursive;
+}
+.section7{
+    background-color: #FFFFFF;
+    width: 100vw;
+    height: 120vh;
+    display: inline-block;
+}
+.section7 h1{
+    text-align: center;
+    margin-top: 3vh;
+    font-family: 'Black Ops One', cursive;
+    font-size: 5vb;
+}
+.section7 h2{
+    margin-left: 4vw;
+    font-family: 'Black Ops One', cursive;
+}
+.section7 p{
+    width: 98vw;
+    font-family: 'Poppins', cursive;
+    height: 40vh;
+}
+.banner3{
+    font-family: 'Black Ops One', cursive;
+    padding: 8vw;
+    margin-top: 10vh;
+    color: white; 
+}
+.banner3 h1{
+    margin-top: 10vh;
+    font-size: 8vb;
+    text-align: center;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 1);
+}
+.banner3 span{
+    color:  rgb(218, 46, 75);
+}
